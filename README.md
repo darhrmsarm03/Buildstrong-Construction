@@ -37,7 +37,7 @@ This repository contains the source code for the **BuildStrong Construction** we
 ## Setup Instructions
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/buildstrong-construction.git
+   git clone https://github.com/darhrmsarm03/buildstrong-construction.git
    ```
 2. **Navigate to the Project Directory**:
    ```bash
