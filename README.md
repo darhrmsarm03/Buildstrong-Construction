@@ -71,7 +71,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 For questions or feedback, please contact:
 - Email: sirmie8364@gmail.com
-- GitHub Issues: [Open an issue](https://github.com/your-username/buildstrong-construction/issues)
+- GitHub Issues: [Open an issue](https://github.com/darhrmsarm03/buildstrong-construction/issues)
 
 ---
 
@@ -79,4 +79,4 @@ For questions or feedback, please contact:
 - Replace `https://github.com/your-username/buildstrong-construction` with the actual repository URL.
 - If the other HTML files (`about.html`, `services.html`, etc.) exist, they are included in the file structure. If they don’t, you may want to note that they are placeholders or need to be created.
 - The contact form functionality is assumed to require a backend, as the provided HTML only includes a frontend form.
-- If you want to add specific details (e.g., technologies used, additional features, or deployment instructions), let me know, and I can refine the README further!
+- Let me know if you want to add specific details (e.g., technologies used, additional features, or deployment instructions), and I can refine the README further!
