@@ -68,8 +68,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    color: #fff;
-}
+    
 
 .hero-content {
     max-width: 800px;
