@@ -25,3 +25,19 @@ contactForm.addEventListener('submit', (e) => {
     alert('Thank you for your message! We will get back to you soon.');
     contactForm.reset();
 });
+
+// Add click event to project cards for interactivity
+document.querySelectorAll('.project-card').forEach(card => {
+    card.addEventListener('click', () => {
+        const title = card.querySelector('.project-title').textContent;
+        alert(`You clicked on: ${title}`);
+        // Replace alert with actual functionality, e.g., navigating to project details
+    });
+});
+
+// Smooth scroll for View All Projects button (if linked to a section)
+document.querySelector('.view-all-button').addEventListener('click', (e) => {
+    e.preventDefault();
+    // Example: Scroll to projects grid
+    document.querySelector('.projects-grid').scrollIntoView({ behavior: 'smooth' });
+});
