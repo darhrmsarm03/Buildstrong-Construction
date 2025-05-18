@@ -62,7 +62,7 @@ body {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) url('image/home-bg-1.jpg');
+    background: url('image/home-bg-1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
