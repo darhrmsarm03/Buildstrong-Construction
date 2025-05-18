@@ -62,7 +62,7 @@ body {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient('image/about-img-1-r4ci226tbp94oppz6l6tpdgb83u9off4g9ibren3mo.jpg');
+    
     background-size: cover;
     background-position: center;
     display: flex;
