@@ -65,10 +65,12 @@ body {
      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) url('image/about-img-1-r4ci226tbp94oppz6l6tpdgb83u9off4g9ibren3mo.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
+    min-height: 600px;
 }
 
 .hero-content {
