@@ -70,7 +70,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 For questions or feedback, please contact:
-- Email: example@buildstrong.com
+- Email: sirmie8364@gmail.com
 - GitHub Issues: [Open an issue](https://github.com/your-username/buildstrong-construction/issues)
 
 ---
