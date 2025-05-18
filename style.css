@@ -11,12 +11,14 @@ body {
 
 /* Navigation */
 .navbar {
-    background: #1a1a1a;
+    background: #1a1a1a, url('image/glass-building.jpg');
     padding: 1rem 2rem;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
+}
+.services-description {text-align: center; font-size: 17px;
 }
 
 .navbar .container {
@@ -25,6 +27,7 @@ body {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+
 }
 
 .logo {
@@ -61,8 +64,8 @@ body {
 
 /* Hero Section */
 .hero {
-    height: 100vh;
-    background: url('image/home-bg-1.jpg');
+    height: 80vh;
+    background: url('image/project-6-1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -104,8 +107,10 @@ body {
 
 /* About Section */
 .about {
-    padding: 5rem 2rem;
+    padding: 15rem 10rem;
     background: #f9f9f9;
+    background-image: url('image/modern-design.jpg');
+    text-align: center;
 }
 
 .container {
@@ -122,6 +127,7 @@ body {
 
 .about-text {
     flex: 1;
+    font-size: medium;
 }
 
 .about-image {
@@ -135,15 +141,50 @@ body {
     object-fit: cover;
 }
 
+.contain-texts {
+  display: flex;
+  align-items: right; /* Vertically center items */
+  gap: 20px; /* Space between text and image, optional */
+  flex-wrap: wrap; /* Wrap on smaller screens if needed */
+  padding-left: 50px;
+}
+
+.text-content {
+  flex: 1; /* Take up remaining space */
+  font-size: 17px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.image-content img {
+  max-width: 100%; /* Make image responsive */
+  height: auto;
+  display: block;
+  width: 600px; /* Optional: limit max width of image */
+  padding-right: 50px;
+}
 h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #1a1a1a;
+    color: #1a1a1a
 }
 
 /* Services Section */
 .services {
-    padding: 5rem 2rem;
+    padding: 10rem 2rem;
+
+
+}
+
+.services-set {padding: 15rem 5rem;
+   text-align: center;
+    background-image: url('image/glass-building.jpg');
+    margin-bottom: -80px;
+
+}
+.services-set h2{color: #fff;
+  
+
 }
 
 .services-grid {
@@ -174,6 +215,14 @@ h2 {
     padding: 5rem 2rem;
     background: #f9f9f9;
 }
+.project-set {
+    padding: 15rem 10rem;
+    background: #f9f9f9;
+    background-image: url('image/building\ copy.jpg');
+    text-align: center;
+}
+
+.project-set h2{color: #fff;}
 
 .projects-grid {
     display: grid;
@@ -219,6 +268,10 @@ h2 {
 .contact {
     padding: 5rem 2rem;
 }
+.contact-set{padding: 15rem 5rem;
+   text-align: center;
+    background-image: url('image/contact-us-bg-1.jpg');}
+
 
 .contact form {
     max-width: 600px;
@@ -329,7 +382,7 @@ body {
 .divider {
     width: 60px;
     height: 4px;
-    background-color: #007bff;
+    background-color: #040e19;
     margin: 20px auto;
 }
 
@@ -414,3 +467,4 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
