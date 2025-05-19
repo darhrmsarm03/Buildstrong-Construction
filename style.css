@@ -166,7 +166,7 @@ body {
   height: auto;
   display: block;
   width: 600px; /* Optional: limit max width of image */
-  padding-right: 50px;
+  padding-right: 10px;
 }
 h2 {
     font-size: 1.5rem;
