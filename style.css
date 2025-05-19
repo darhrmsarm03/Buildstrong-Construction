@@ -149,7 +149,8 @@ body {
   align-items: right; /* Vertically center items */
   gap: 20px; /* Space between text and image, optional */
   flex-wrap: wrap; /* Wrap on smaller screens if needed */
-  padding-left: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .text-content {
@@ -168,7 +169,7 @@ body {
   padding-right: 50px;
 }
 h2 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
     color: #1a1a1a
 }
